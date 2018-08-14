@@ -1,0 +1,162 @@
+index:
+  total-users: Registered Users
+  total-players: Players
+  total-textures: Uploaded Textures
+  disk-usage: Disk Usage
+  overview: Overview
+  texture-uploads: Texture Uploads
+  user-registration: User Registration
+
+users:
+  players-count:
+    title: Players Count
+  status:
+    title: Status
+    normal: Normal
+    banned: Banned
+    admin: Admin
+    super-admin: Super Admin
+  operations:
+    title: Operations
+    non-existent: No such user.
+    no-permission: You have no permission to operate this user.
+    invalid: Invalid action.
+    email:
+      change: Edit Email
+      existed: :email is existed.
+      success: Email changed successfully.
+    nickname:
+      change: Edit Nickname
+      success: Nickname changed successfully.
+    password:
+     change: Edit Password
+     success: Password changed successfully.
+    score:
+      success: Score changed successfully.
+    admin:
+      set:
+        text: Set as Admin
+        success: The account has been set as admin.
+      unset:
+        text: Remove Admin
+        success: The account's admin privilege has been removed.
+    ban:
+      ban:
+        text: Ban
+        success: The account has been banned.
+      unban:
+        text: Unban
+        success: The account has been unbanned.
+      cant-super-admin: You can't ban super admin.
+      cant-admin: Only super admins are able to ban admins.
+    delete:
+      delete: Delete User
+      success: The account has been deleted successfully.
+      cant-super-admin: You can't delete super admin in this way
+      cant-admin: You can't delete admins.
+
+players:
+  no-permission: You have no permission to operate this player.
+  operations:
+    title: Operations
+  preference:
+    success: The preference of player [:player] has been changed to :preference
+  textures:
+    change: Change Textures
+    non-existent: No such texture tid.:tid
+    success: The textures of :player has been updated.
+  name:
+    success: Player name has been updated to :player
+  owner:
+    change: Change Owner
+    success: The player :player was transferred to user :user.
+  delete:
+    delete: Delete
+    success: The player has been deleted successfully.
+
+customize:
+  change-color:
+    title: Change theme color
+    success: Theme color updated.
+
+  colors:
+    blue: Blue (Default)
+    blue-light: Blue Light
+    yellow: Yellow
+    yellow-light: Yellow Light
+    green: Green
+    green-light: Green Light
+    purple: Purple
+    purple-light: Purple Light
+    red: Red
+    red-light: Red Light
+    black: Black
+    black-light: Black Light
+
+plugins:
+  name: Name
+  description: Description
+  author: Author
+  version: Version
+
+  status:
+    title: Status
+    enabled: Enabled
+    disabled: Disabled
+
+  operations:
+    title: Operations
+    enabled: :plugin has been enabled.
+    disabled: :plugin has been disabled.
+    deleted: The plugin was deleted successfully.
+    no-config-notice: The plugin is not installed or doesn't provide configuration page.
+    not-found: No such plugin.
+
+  empty: No result
+
+update:
+  complete: Update completed
+
+  info:
+    title: Update Information
+
+    up-to-date: Already up-to-date.
+    available: New version available.
+    pre-release-warning: This update is a pre-release, please double check before updating.
+
+    versions:
+      latest: "Latest Version:"
+      current: "Current Version:"
+
+    release-time: "Release Time:"
+    pre-release: You are now using pre-release version.
+
+    change-log:
+      text: "Change Log:"
+      empty: Empty
+
+    downloads:
+      text: "Download Link:"
+      link: Click to download full program package.
+
+    check-github: <a href=":url" target="_blank" class="btn btn-default pull-right">Check GitHub Releases</a>
+    button: Update Now
+
+  cautions:
+    title: Cautions
+    text: |
+      Please choose update source according to your host location.
+      Low-speed connection between update source and your host will cause long-time loading at checking/downloading page.
+
+  download:
+    downloading: Downloading update package...
+    size: "Size of package:"
+
+    errors:
+    prefix: "An error occured: "
+    connection: "Unable to access to current update source. Details:"
+    write-permission: Unable to make cache directory. Please sure permission.
+    unzip: "Failed to unzip update file. Error code: "
+    overwrite: Unable to overwrite files.
+
+invalid-action: Invalid action

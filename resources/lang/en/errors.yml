@@ -1,0 +1,16 @@
+http:
+  msg-403: You have no permission to access this page.
+  msg-404: Nothing here.
+  msg-503: The application is now in maintenance mode.
+
+general:
+  title: Error occurred
+
+exception:
+  code: 'Error code: :code'
+  detail: 'Details: :msg'
+  message: |
+    Whoops, looks like something went wrong. (enable APP_DEBUG in .env to see details)
+
+plugins:
+  duplicate: The plugin [:dir1] has a duplicated plugin name definition which is same to plugin [:dir2]. Please check your plugins directory, remove one of them or use another name definition.

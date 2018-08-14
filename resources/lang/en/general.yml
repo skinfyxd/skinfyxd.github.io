@@ -1,0 +1,72 @@
+index: Homepage
+skinlib: Skin Library
+user-center: User Center
+logout: Log Out
+login: Log In
+register: Register Now
+profile: User Profile
+admin-panel: Admin Panel
+explore: Explore
+manage: Manage
+anonymous: Guest
+back: Back
+dashboard: Dashboard
+my-closet: Closet
+player-manage: Players
+user-manage: Users
+plugin-manage: Plugins
+plugin-market: Plugin Market
+plugin-configs: Plugin Configs
+customize: Customize
+options: Options
+import-v2: Import Data
+score-options: Score Options
+check-update: Check Update
+download-update: Download Updates
+close: Close
+skin: Skin
+cape: Cape
+
+loading: Loading
+
+texture-preview: Texture Preview
+walk: Walk
+run: Run
+rotation: Rotation
+pause: Pause
+reset: Reset
+
+submit: Submit
+
+notice: Notice
+switch-2d-preview: Switch to 2D Preview
+
+illegal-parameters: Illegal parameters.
+
+private: Private
+public: Public
+
+unexistent-user: Un-existent user
+unexistent-player: Un-existent player
+player-banned: The owner of this player has been banned
+
+texture-deleted: The requested texture has been deleted.
+texture-not-uploaded: The user haven not uploaded the texture of :type model yet.
+
+operations: Operations
+
+user:
+  uid: UID
+  email: Email
+  nickname: Nickname
+  password: Password
+  score: Score
+  register-at: Registered At
+
+player:
+  pid: PID
+  owner: Owner
+  player-name: Player Name
+  preference: Preference
+  previews: Texture Previews
+  last-modified: Last Modified
